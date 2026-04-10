@@ -3,8 +3,8 @@ import os
 import time
 import datetime
 import threading
-from send_alert import send_intruder_alert
-from log import log_intrusion
+from src.alerts.send_alert import send_intruder_alert
+from src.utils.log import log_intrusion
 import face_recognition
 import numpy as np
 import argparse
